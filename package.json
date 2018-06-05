@@ -1,0 +1,15 @@
+{
+    "name": "async-service-builder",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "repository": "https://github.com/maxjoehnk/node-async-service-builder",
+    "author": "Max Jöhnk <maxjoehnk@gmail.com>",
+    "license": "GPL-3.0",
+    "scripts": {
+        "prepublish": "tsc"
+    },
+    "devDependencies": {
+        "@types/node": "^10.3.1",
+        "typescript": "^2.9.1"
+    }
+}
