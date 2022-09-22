@@ -2,6 +2,8 @@
 
 Build small async services
 
+[Documentation](https://maxjoehnk.github.io/node-async-service-builder/index.html)
+
 ## Installation
 
 ```bash
