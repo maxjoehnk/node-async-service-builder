@@ -26,7 +26,7 @@ export function build(callback: () => Promise<void>, interval = 5000): () => Pro
     };
 }
 
-const timeout = (time: number) => new Promise(resolve => {
+const timeout = (time: number) => new Promise<void>(resolve => {
     const handle = setTimeout(() => {
         timeouts = timeouts.filter(h => h !== handle);
         return resolve();
