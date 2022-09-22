@@ -28,13 +28,3 @@ const serviceB = build(async() => {
 serviceA(); // runs every 5 seconds
 serviceB(); // runs every 10 seconds
 ```
-
-## API
-
-### build(worker: () => Promise<void>, timeout = 5000): () => Promise<void>
-
-Build a new service which pauses for `timeout` between runs.
-
-Won't crash when the worker throws.
-
-It will terminate it self when the process exits.
