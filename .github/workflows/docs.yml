@@ -30,6 +30,8 @@ jobs:
           node-version: 14
           cache: yarn
           cache-dependency-path: yarn.lock
+      - name: Install dependencies
+        run: yarn
       - name: Build Docs
         run: yarn docs
       - name: Setup Pages
